@@ -1,7 +1,7 @@
 [![MasterHead](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80)](https://github.com/fasilofficial)
 <h1 align="center">Hi there, I'm M Fasil</h1>
 <h3 align="center">A passionate frontend developer.</h3>
-<img src='https://raw.githubusercontent.com/gist/MedRedha/fd8e2481bde2610c96b9aafde543879c/raw/88624e8d31c4295973dcb7c900dacf0edc0a6d99/coding.gif' alt='coding' width='400' />
+<img align='right' src='https://raw.githubusercontent.com/gist/MedRedha/fd8e2481bde2610c96b9aafde543879c/raw/88624e8d31c4295973dcb7c900dacf0edc0a6d99/coding.gif' alt='coding' width='400' />
 
 - 🌱 I’m currently learning **react js**
 
