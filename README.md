@@ -2,7 +2,6 @@
 
 <h1 align="center">Hi there, I'm M Fasil</h1>
 <h3 align="center">A passionate frontend developer</h3>
-<img style="border-radius: 10px" align='right' src='https://media.tenor.com/GVk4jB2u_i8AAAAd/coding.gif' alt='coding' width='400' />
 
 - 🌱 I’m currently learning **react js**
 
