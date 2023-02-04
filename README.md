@@ -171,7 +171,7 @@
 
 <br>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=fasilofficial&show_icons=true&locale=en" alt="fasilofficial" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=fasilofficial&show_icons=true&locale=en" alt="fasilofficial" /></p>
 
 <hr>
 
