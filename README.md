@@ -7,3 +7,4 @@ HTML, CSS, JavaScript, SASS, Bootstrap, Tailwind CSS, React, Next, Git, GitHub, 
 ## 📈 Stats
 [![mfasilofficial's GitHub | Stats](https://stats.quine.sh/mfasilofficial/github?theme=light)](https://quine.sh)
 [![mfasilofficial's GitHub | Languages Over Time](https://stats.quine.sh/mfasilofficial/languages-over-time?theme=light)](https://quine.sh)
+[![mfasilofficial's GitHub | Topics Over Time](https://stats.quine.sh/mfasilofficial/topics-over-time?theme=dark)](https://quine.sh?utm_source=widgets&utm_campaign=mfasilofficial)
