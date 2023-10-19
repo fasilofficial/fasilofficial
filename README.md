@@ -1,4 +1,4 @@
-<h1 align='center'>Hi devs 👋 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="25" height="25" />, I'm Muhammed Fasil</h1>
+<h1 align='center'>Hi devs 👋, I'm Muhammed Fasil</h1>
 <h3 align="center">Developer | Photographer | Cinephile</h3>
 
 
