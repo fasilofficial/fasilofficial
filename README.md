@@ -52,6 +52,9 @@ app.get("/contact", (req, res) => {
 });
 
 ```
+
+### Checkout my latest Medium post
+[Unlocking the Power of JavaScript ES6: Features You Should Be Using in Your Projects](https://medium.com/@mfasilofficial/unlocking-the-power-of-javascript-es6-features-you-should-be-using-in-your-projects-d1d31562a87e)
 <br><br>
 <h2 align='center'>
   🏃 Okay, bye!
