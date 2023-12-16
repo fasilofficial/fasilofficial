@@ -20,10 +20,10 @@ app.get("/about-me", (req, res) => {
     ],
     askMeAbout: ["Web dev", "MERN", "Movies"],
     technologies: {
-      programming: ["C", "C++", "Java", "Python"],
-      frontEnd: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
+      programming: ["C", "C++", "Java", "Python", "PHP", "Ruby", "Bash"],
+      frontEnd: ["HTML", "CSS", "JavaScript", "React", "Next", "Tailwind", "Bootstrap", "Framer Motion", "AOS"],
       backEnd: ["node.js", "express.js"],
-      database: ["mongoDB", "mySql"],
+      database: ["mongoDB", "mySQL", "PostgreSQL"],
     },
   });
 });
@@ -42,7 +42,7 @@ app.get("/contact", (req, res) => {
       county: "India",
     },
     company: "Brototype, Kochi",
-    jobTitle: "Full stack intern",
+    jobTitle: "MERN stack intern",
     website: "https://fasils.vercel.app",
     socialMedia: {
       linkedin: "https://www.linkedin.com/in/mfasilofficial",
