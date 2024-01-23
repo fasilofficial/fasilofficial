@@ -54,7 +54,7 @@ app.get("/contact", (req, res) => {
 ```
 
 ### Checkout my latest Medium post
-[Unlocking the Power of JavaScript ES6: Features You Should Be Using in Your Projects](https://medium.com/@mfasilofficial/unlocking-the-power-of-javascript-es6-features-you-should-be-using-in-your-projects-d1d31562a87e)
+[Deep Dive into deeperjs: A Powerful Deep Cloning npm Package](https://medium.com/@mfasilofficial/deep-dive-into-deeperjs-a-powerful-deep-cloning-npm-package-b127a7b7b887)
 <br><br>
 <h2 align='center'>
   🏃 Okay, bye!
