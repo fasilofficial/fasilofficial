@@ -9,7 +9,6 @@ app.get("/about-me", (req, res) => {
   res.send({
     firstName: "Muhammed",
     lastName: "Fasil",
-    pronouns: "He" | "Him",
     interests: [
       "coding 💻",
       "movie 🎬",
@@ -24,6 +23,7 @@ app.get("/about-me", (req, res) => {
       frontEnd: ["HTML", "CSS", "JavaScript", "React", "Next", "Tailwind", "Bootstrap", "Framer Motion", "AOS"],
       backEnd: ["node.js", "express.js"],
       database: ["mongoDB", "mySQL", "PostgreSQL"],
+      other: ["redux toolkit"]
     },
   });
 });
