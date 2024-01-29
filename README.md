@@ -20,10 +20,10 @@ app.get("/about-me", (req, res) => {
     askMeAbout: ["Web dev", "MERN", "Movies"],
     technologies: {
       programming: ["C", "C++", "Java", "Python", "PHP", "Ruby", "Bash"],
-      frontEnd: ["HTML", "CSS", "JavaScript", "React", "Next", "Tailwind", "Bootstrap", "Framer Motion", "AOS"],
+      frontEnd: ["HTML", "CSS", "JavaScript", "React", "Next"],
       backEnd: ["node.js", "express.js"],
       database: ["mongoDB", "mySQL", "PostgreSQL"],
-      other: ["redux toolkit"]
+      other: ["redux toolkit", "Tailwind", "Bootstrap", "Framer Motion", "AOS", "pug", "ejs"]
     },
   });
 });
