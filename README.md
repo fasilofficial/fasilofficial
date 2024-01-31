@@ -7,8 +7,8 @@
 
 app.get("/about-me", (req, res) => {
   res.send({
-    firstName: "Muhammed",
-    lastName: "Fasil",
+    firstName: "muhammed",
+    lastName: "fasil",
     interests: [
       "coding 💻",
       "movie 🎬",
@@ -17,14 +17,14 @@ app.get("/about-me", (req, res) => {
       "travel 🧳",
       "coffee ☕",
     ],
-    askMeAbout: ["Web dev", "MERN", "Movies"],
+    askMeAbout: ["web dev", "mern", "movies"],
     technologies: {
-      programming: ["C", "C++", "Java", "Python", "PHP", "Ruby", "Bash", "TypeScript"],
-      frontEnd: ["HTML", "CSS", "JavaScript", "React", "Next"],
-      backEnd: ["node.js", "express.js"],
-      database: ["mongoDB", "mySQL", "PostgreSQL"],
-      testing: ["Jest"],
-      other: ["redux toolkit", "Tailwind", "Bootstrap", "Framer Motion", "AOS", "pug", "ejs"]
+      programming: ["c", "c++", "java", "python", "php", "ruby", "bash", "typescript"],
+      frontEnd: ["html", "css", "javascript", "reactjs", "nextjs"],
+      backEnd: ["nodejs", "expressjs"],
+      database: ["mongodb", "mysql", "postgresql"],
+      testing: ["jest"],
+      other: ["redux toolkit", "tailwind", "bootstrap", "framer motion", "aos", "pug", "ejs"]
     },
   });
 });
@@ -38,12 +38,12 @@ app.get("/contact", (req, res) => {
   res.send({
     email: "muhammedfasilofficial@gmail.com",
     location: {
-      city: "Nilambur",
-      state: "Kerala",
-      county: "India",
+      city: "nilambur",
+      state: "kerala",
+      county: "india",
     },
-    company: "Brototype, Kochi",
-    jobTitle: "MERN stack intern",
+    company: "brototype, kochi",
+    jobTitle: "mern stack intern",
     website: "https://fasils.vercel.app",
     socialMedia: {
       linkedin: "https://www.linkedin.com/in/mfasilofficial",
