@@ -24,7 +24,7 @@ app.get("/about-me", (req, res) => {
       backEnd: ["nodejs", "expressjs"],
       database: ["mongodb", "mysql", "postgresql"],
       testing: ["jest"],
-      other: ["redux toolkit", "tailwind", "bootstrap", "framer motion", "aos", "pug", "ejs"]
+      other: ["redux toolkit", "tailwind", "bootstrap", "framer motion", "aos", "pug", "ejs", "framer-motion"]
     },
   });
 });
