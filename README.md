@@ -1,14 +1,17 @@
-<h1 align='center'>Hi devs 👋, I'm Muhammed Fasil</h1>
-<h3 align="center">Developer | Photographer | Cinephile</h3>
+<h1 align='center'>Hello devs <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="32" height="32">, Fasil here</h1>
+<h4 align="center">DEVELOPER. PHOTOGRAPHER. CINEPHILE.</h4>
 
 
-### /about-me
-```javascript
+### About Me
+```typescript
 
-app.get("/about-me", (req, res) => {
-  res.send({
-    firstName: "muhammed",
-    lastName: "fasil",
+import express, { Express, Request, Response } from "express";
+
+const app: Express = express();
+
+app.get("/about", (req: Request, res: Response) => {
+  res.status(200).json({
+    fullName: "muhammed fasil k",
     interests: [
       "coding 💻",
       "movie 🎬",
@@ -19,44 +22,51 @@ app.get("/about-me", (req, res) => {
     ],
     askMeAbout: ["web dev", "mern", "movies"],
     technologies: {
-      programming: ["c", "c++", "java", "python", "php", "ruby", "bash", "typescript"],
+      programming: [
+        "c",
+        "c++",
+        "java",
+        "python",
+        "php",
+        "ruby",
+        "bash",
+        "typescript",
+      ],
       frontEnd: ["html", "css", "javascript", "reactjs", "nextjs"],
       backEnd: ["nodejs", "expressjs"],
       database: ["mongodb", "mysql", "postgresql"],
       testing: ["jest"],
-      other: ["redux toolkit", "tailwind", "bootstrap", "framer motion", "aos", "pug", "ejs", "framer-motion", "json"]
+      other: [
+        "redux toolkit",
+        "tailwind",
+        "bootstrap",
+        "figma",
+        "framer motion",
+        "aos",
+        "pug",
+        "ejs",
+        "framer-motion",
+        "json",
+        "dsa",
+      ],
     },
   });
 });
 
-```
-
-### /contact
-```javascript
-
-app.get("/contact", (req, res) => {
-  res.send({
+app.get("/contact", (req: Request, res: Response) => {
+  res.status(200).json({
     email: "muhammedfasilofficial@gmail.com",
-    location: {
-      city: "nilambur",
-      state: "kerala",
-      county: "india",
-    },
-    company: "brototype, kochi",
-    jobTitle: "mern stack intern",
-    website: "https://fasils.vercel.app",
-    socialMedia: {
+    portfolio: "https://fasils.vercel.app",
+    links: {
       linkedin: "https://www.linkedin.com/in/mfasilofficial",
       medium: "https://medium.com/@mfasilofficial",
+      leetcode: "https://leetcode.com/mfasilofficial",
     },
   });
 });
 
-```
+export default app;
 
-### Checkout my latest Medium post
-[Deep Dive into deeperjs: A Powerful Deep Cloning npm Package](https://medium.com/@mfasilofficial/deep-dive-into-deeperjs-a-powerful-deep-cloning-npm-package-b127a7b7b887)
-<br><br>
-<h2 align='center'>
-  🏃 Okay, bye!
-</h2>
+```
+[about](https://shorturl.at/ckCSW) <br />
+[contact](https://shorturl.at/iF239)
