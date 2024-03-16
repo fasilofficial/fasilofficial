@@ -61,7 +61,7 @@ app.get("/contact", (req: Request, res: Response) => {
     links: {
       linkedin: "https://www.linkedin.com/in/mfasilofficial",
       medium: "https://medium.com/@mfasilofficial",
-      leetcode: "https://leetcode.com/mfasilofficial",
+      leetcode: "https://leetcode.com/fasilofficial",
     },
   });
 });
