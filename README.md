@@ -46,7 +46,6 @@ app.get("/about", (req: Request, res: Response) => {
         "aos",
         "pug",
         "ejs",
-        "framer-motion",
         "json",
         "dsa",
       ],
