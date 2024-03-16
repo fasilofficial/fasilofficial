@@ -42,6 +42,7 @@ app.get("/about", (req: Request, res: Response) => {
         "bootstrap",
         "figma",
         "framer motion",
+        "gsap",
         "aos",
         "pug",
         "ejs",
