@@ -69,5 +69,8 @@ app.get("/contact", (req: Request, res: Response) => {
 export default app;
 
 ```
+
+[![fasilofficial's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=fasilofficial&theme=dark)](https://github.com/KnlnKS/leetcode-stats)
+
 [about](https://shorturl.at/ckCSW) <br />
 [contact](https://shorturl.at/iF239)
