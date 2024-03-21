@@ -48,6 +48,7 @@ app.get("/about", (req: Request, res: Response) => {
         "ejs",
         "json",
         "dsa",
+        "zod",
       ],
     },
   });
