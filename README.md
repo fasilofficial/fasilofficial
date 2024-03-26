@@ -58,7 +58,7 @@ app.get("/contact", (req: Request, res: Response) => {
     email: "muhammedfasilofficial@gmail.com",
     portfolio: "https://fasils.vercel.app",
     links: {
-      linkedin: "https://www.linkedin.com/in/mfasilofficial",
+      linkedin: "https://www.linkedin.com/in/fasilofficial",
       medium: "https://medium.com/@mfasilofficial",
       leetcode: "https://leetcode.com/fasilofficial",
     },
