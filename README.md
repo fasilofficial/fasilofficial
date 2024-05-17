@@ -1,17 +1,23 @@
-<h1 align='center'>Hello devs <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="32" height="32">, Fasil here</h1>
+<h1 align='center'>Hey <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="32" height="32">, I'm Fasil </h1>
 <h4 align="center">DEVELOPER. PHOTOGRAPHER. CINEPHILE.</h4>
 
 
 ### About Me
 ```typescript
 
-import express, { Express, Request, Response } from "express";
+import express, { Express, Request, Response, NextFunction } from "express";
+import cors from "cors";
+
+const PORT = 3000;
 
 const app: Express = express();
 
+app.use(cors());
+app.use(express.json());
+
 app.get("/about", (req: Request, res: Response) => {
   res.status(200).json({
-    fullName: "muhammed fasil k",
+    fullName: "Muhammed Fasil K",
     interests: [
       "coding 💻",
       "movie 🎬",
@@ -20,34 +26,34 @@ app.get("/about", (req: Request, res: Response) => {
       "travel 🧳",
       "coffee ☕",
     ],
-    askMeAbout: ["web dev", "mern", "movies"],
+    askMeAbout: ["web dev", "mobile dev", "movies"],
     technologies: {
-      programming: [
-        "c",
-        "c++",
-        "java",
-        "python",
-        "php",
-        "ruby",
-        "bash",
-        "typescript",
+      programmingLanguages: [
+        "C",
+        "C++",
+        "Java",
+        "Python",
+        "PHP",
+        "Ruby",
+        "Bash",
+        "TypeScript",
       ],
-      frontEnd: ["html", "css", "javascript", "reactjs", "nextjs"],
-      backEnd: ["nodejs", "expressjs"],
-      database: ["mongodb", "mysql", "postgresql"],
-      testing: ["jest"],
-      animation: ["framer motion", "gsap", "aos"],
-      api: ['rest', 'graphql'],
-      other: [
-        "redux toolkit",
-        "tailwind",
-        "bootstrap",
-        "figma",
-        "pug",
-        "ejs",
-        "json",
-        "dsa",
-        "zod",
+      frontEnd: ["HTML", "CSS", "JavaScript", "ReactJS", "Next.js"],
+      backEnd: ["Node.js", "Express.js"],
+      databases: ["MongoDB", "MySQL", "PostgreSQL"],
+      testing: ["Jest"],
+      animationLibraries: ["Framer Motion", "GSAP", "AOS"],
+      apiTechnologies: ["REST", "GraphQL"],
+      otherLibraries: [
+        "Redux Toolkit",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Figma",
+        "Pug",
+        "EJS",
+        "JSON",
+        "Data Structures and Algorithms",
+        "Zod",
       ],
     },
   });
@@ -59,15 +65,24 @@ app.get("/contact", (req: Request, res: Response) => {
     portfolio: "https://fasils.vercel.app",
     links: {
       linkedin: "https://www.linkedin.com/in/fasilofficial",
-      medium: "https://medium.com/@mfasilofficial",
       leetcode: "https://leetcode.com/fasilofficial",
+      medium: "https://medium.com/@mfasilofficial",
     },
   });
 });
 
-export default app;
+app.use((req: Request, res: Response, next: NextFunction) => {
+  res.status(404).json({ message: "Oops! Route not found" });
+});
+
+app.use((err: any, req: Request, res: Response, next: NextFunction) => {
+  console.error(err.stack);
+  res.status(500).json({ message: "Internal Server Error" });
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+});
+
 
 ```
-
-[about](https://shorturl.at/ckCSW) <br />
-[contact](https://shorturl.at/iF239)
