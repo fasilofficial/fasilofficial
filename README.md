@@ -39,7 +39,7 @@ app.get("/about", (req: Request, res: Response) => {
         "TypeScript",
       ],
       frontEnd: ["HTML", "CSS", "JavaScript", "ReactJS", "Next.js"],
-      backEnd: ["Node.js", "Express.js"],
+      backEnd: ["Node.js", "Express.js", "NestJS"],
       databases: ["MongoDB", "MySQL", "PostgreSQL"],
       testing: ["Jest"],
       animationLibraries: ["Framer Motion", "GSAP", "AOS"],
