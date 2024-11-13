@@ -5,45 +5,21 @@
 
 
 
-<?php
-
 use Illuminate\Support\Facades\Route;
-use Symfony\Component\HttpFoundation\Response;
 
+Route::get('/about', fn() => response()->json([
+    'fullName' => 'Muhammed Fasil K',
+    'interests' => ['coding', 'movies', 'music', 'travel'],
+    'skills' => ['ReactJS', 'Node.js', 'Laravel', 'Python', 'MySQL'],
+]));
 
-Route::get('/about', function () {
-    return response()->json([
-        'fullName' => 'Muhammed Fasil K',
-        'interests' => ['coding', 'movies', 'music', 'travel'],
-        'askMeAbout' => ['web development', 'movies'],
-        'skills' => [
-            'ReactJS',
-            'NextJS',
-            'Node.js',
-            'Express.js',
-            'NestJS',
-            'Laravel',
-            'Python',
-            'MongoDB',
-            'MySQL',
-        ],
-    ], Response::HTTP_OK);
-});
+Route::get('/contact', fn() => response()->json([
+    'email' => 'muhammedfasilofficial@gmail.com',
+    'portfolio' => 'https://mfasil.vercel.app',
+]));
 
-Route::get('/contact', function () {
-    return response()->json([
-        'email' => 'muhammedfasilofficial@gmail.com',
-        'portfolio' => 'https://mfasil.vercel.app',
-        'links' => [
-            'linkedin' => 'https://www.linkedin.com/in/mfasilofficial',
-            'leetcode' => 'https://leetcode.com/fasilofficial',
-        ],
-    ], Response::HTTP_OK);
-});
+Route::fallback(fn() => response()->json(['message' => 'Route not found'], 404));
 
-Route::fallback(function () {
-    return response()->json(['message' => 'Route not found'], Response::HTTP_NOT_FOUND);
-});
 
 
 
