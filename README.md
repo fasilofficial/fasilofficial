@@ -15,7 +15,7 @@ async def about():
     return JSONResponse(content={
         "fullName": "Muhammed Fasil K",
         "interests": ["coding", "movies", "music", "travel"],
-        "skills": ["ReactJS", "Node.js", "Laravel", "Python", "SQL", "NoSQL", "FasilAPI"]
+        "skills": ["ReactJS", "Node.js", "Laravel", "Python", "SQL", "NoSQL", "FastAPI"]
     })
 
 @app.get("/contact")
